@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 Advanced Production RAG & Autonomous AI Agents Suite
+# Advanced Production RAG & Autonomous AI Agents Suite
 
 **A comprehensive, production-grade engineering suite showcasing modern Retrieval-Augmented Generation (RAG) architectures — from Lexical + Semantic Hybrid Search and Reciprocal Rank Fusion to Multi-Step Autonomous Research Agents and Financial Filing Intelligence.**
 
@@ -15,24 +15,24 @@
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [Architectural Evolution](#-architectural-evolution)
-- [Suite Projects Overview](#-suite-projects-overview)
-  - [1. DocMind v2: Enterprise Hybrid RAG](#1--docmind-v2-enterprise-hybrid-rag)
-  - [2. Autonomous Research Agent](#2--autonomous-ai-research-agent)
-  - [3. Financial Analyst 10-K RAG](#3--financial-analyst-sec-10-k-rag)
-- [Comparative Architecture Matrix](#-comparative-architecture-matrix)
-- [Core Technologies & Stack](#-core-technologies--stack)
-- [Repository Structure](#-repository-structure)
-- [Quick Start Guide](#-quick-start-guide)
-- [Security & Production Best Practices](#-security--production-best-practices)
-- [Author & Connect](#-author--connect)
-- [License](#-license)
+- [Architectural Evolution](#architectural-evolution)
+- [Suite Projects Overview](#suite-projects-overview)
+  - [1. DocMind v2: Enterprise Hybrid RAG](#1-docmind-v2-enterprise-hybrid-rag)
+  - [2. Autonomous Research Agent](#2-autonomous-ai-research-agent)
+  - [3. Financial Analyst 10-K RAG](#3-financial-analyst-sec-10-k-rag)
+- [Comparative Architecture Matrix](#comparative-architecture-matrix)
+- [Core Technologies & Stack](#core-technologies--stack)
+- [Repository Structure](#repository-structure)
+- [Quick Start Guide](#quick-start-guide)
+- [Security & Production Best Practices](#security--production-best-practices)
+- [Author & Connect](#author--connect)
+- [License](#license)
 
 ---
 
-## 🏗️ Architectural Evolution
+## Architectural Evolution
 
 This repository provides working, end-to-end reference implementations of the modern RAG paradigm across three distinct evolutionary tiers:
 
@@ -70,9 +70,9 @@ graph TD
 
 ---
 
-## 📦 Suite Projects Overview
+## Suite Projects Overview
 
-### 1. ⬡ [DocMind v2: Enterprise Hybrid RAG](./01-DocMind-Hybrid-RAG)
+### 1. DocMind v2: Enterprise Hybrid RAG
 > **Location:** [`./01-DocMind-Hybrid-RAG`](./01-DocMind-Hybrid-RAG)  
 > **Stack:** FastAPI, React 18, ChromaDB, BM25, Docker Compose, OpenAI / Groq
 
@@ -87,7 +87,7 @@ An enterprise-ready RAG application addressing real-world retrieval pitfalls:
 
 ---
 
-### 2. 🔬 [Autonomous AI Research Agent](./02-Autonomous-Research-Agent)
+### 2. Autonomous AI Research Agent
 > **Location:** [`./02-Autonomous-Research-Agent`](./02-Autonomous-Research-Agent)  
 > **Stack:** Python, FastAPI, Groq (Llama-3.3-70B), ChromaDB, React 19, Vite
 
@@ -95,13 +95,13 @@ An agentic research assistant designed for deep academic and technical investiga
 - **ReAct Agent Reasoning Loop:** Multi-step decision making with native Groq function calling.
 - **Dynamic Tool Dispatch:** Autonomously executes document searches, live web searches, and file creation.
 - **Automated Report Synthesizer:** Generates executive bullet summaries, research briefs, and multi-topic comparative analyses.
-- **Modern React 19 UI:** Interactive dark-mode research workspace with real-time feedback, note inspection, and document indexing.
+- **Modern React 19 UI:** Interactive research workspace with real-time feedback, note inspection, and document indexing.
 
 👉 **[Explore Autonomous Research Agent Documentation & Guide &rarr;](./02-Autonomous-Research-Agent)**
 
 ---
 
-### 3. 📈 [Financial Analyst SEC 10-K RAG](./03-Financial-Analyst-RAG)
+### 3. Financial Analyst SEC 10-K RAG
 > **Location:** [`./03-Financial-Analyst-RAG`](./03-Financial-Analyst-RAG)  
 > **Stack:** LangChain, Pinecone Serverless, Groq, SentenceTransformers, Streamlit
 
@@ -115,9 +115,9 @@ A financial intelligence tool tailored for quantitative and qualitative analysis
 
 ---
 
-## 📊 Comparative Architecture Matrix
+## Comparative Architecture Matrix
 
-| Architectural Dimension | 📈 Financial Analyst RAG | ⬡ DocMind v2 Hybrid RAG | 🔬 Autonomous Research Agent |
+| Architectural Dimension | Financial Analyst RAG | DocMind v2 Hybrid RAG | Autonomous Research Agent |
 |---|---|---|---|
 | **Primary Paradigm** | Grounded Dense RAG | Hybrid Dense + Sparse RAG | Agentic Multi-Step RAG |
 | **Vector Store** | Pinecone Serverless | ChromaDB (Persistent) | ChromaDB (Disk-backed) |
@@ -132,7 +132,7 @@ A financial intelligence tool tailored for quantitative and qualitative analysis
 
 ---
 
-## 💻 Core Technologies & Stack
+## Core Technologies & Stack
 
 - **Orchestration & Frameworks:** LangChain, FastAPI, Pydantic v2, Uvicorn
 - **Large Language Models:** Groq LLaMA 3.3 70B Versatile, OpenAI GPT-4o-mini
@@ -143,7 +143,7 @@ A financial intelligence tool tailored for quantitative and qualitative analysis
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Advanced-RAG-and-AI-Agents/
@@ -180,7 +180,7 @@ Advanced-RAG-and-AI-Agents/
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### 1. Clone the Suite
 ```bash
@@ -228,7 +228,7 @@ streamlit run app.py
 
 ---
 
-## 🔒 Security & Production Best Practices
+## Security & Production Best Practices
 
 - **Zero Secret Commits:** All API keys, credentials, and tokens are decoupled using `.env.example` templates and strictly omitted via `.gitignore`.
 - **Reproducible Environments:** Clean dependency pinning with isolated virtual environments and Docker containers.
@@ -236,7 +236,7 @@ streamlit run app.py
 
 ---
 
-## 👨‍💻 Author & Connect
+## Author & Connect
 
 **Ankur Pal**  
 - **GitHub:** [@FresherMen](https://github.com/FresherMen)  
@@ -244,6 +244,6 @@ streamlit run app.py
 
 ---
 
-## 📄 License
+## License
 
 This repository is licensed under the [MIT License](LICENSE).

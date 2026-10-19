@@ -5,6 +5,7 @@
 **A comprehensive, production-grade engineering suite showcasing modern Retrieval-Augmented Generation (RAG) architectures — from Lexical + Semantic Hybrid Search and Reciprocal Rank Fusion to Multi-Step Autonomous Research Agents and Financial Filing Intelligence.**
 
 [![Author](https://img.shields.io/badge/Author-Ankur%20Pal-blue.svg?style=for-the-badge&logo=github)](https://github.com/FresherMen)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ankur%20Pal-0A66C2.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ankur-pal-2b2ba9433)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -239,6 +240,7 @@ streamlit run app.py
 ## Author & Connect
 
 **Ankur Pal**  
+- **LinkedIn:** [Ankur Pal](https://www.linkedin.com/in/ankur-pal-2b2ba9433)  
 - **GitHub:** [@FresherMen](https://github.com/FresherMen)  
 - **Specialization:** Generative AI, Retrieval-Augmented Generation (RAG), Autonomous AI Agents, Full-Stack Architecture  
 

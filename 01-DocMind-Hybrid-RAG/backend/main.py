@@ -158,7 +158,8 @@ async def ingest(files: List[UploadFile] = File(...)):
     require_engine()
     results = []
     for uf in files:
-        suffix = Path(uf.filename).suffix
+        raw_name = uf.filename or "uploaded_document.txt"
+        suffix = Path(raw_name).suffix
         if suffix.lower() not in (".pdf", ".txt", ".md"):
             raise HTTPException(400, f"Unsupported file type: {suffix}")
 
@@ -168,7 +169,7 @@ async def ingest(files: List[UploadFile] = File(...)):
             tmp_path = tmp.name
 
         try:
-            result = engine.ingest_file(tmp_path)
+            result = engine.ingest_file(tmp_path, doc_name=raw_name)
             results.append(vars(result))
         except Exception as e:
             raise HTTPException(500, str(e))

@@ -10,9 +10,9 @@ class ResearchAgent:
 
     MAX_ITERATIONS = 6
 
-    def __init__(self):
+    def __init__(self, executor: ToolExecutor = None):
         self.client   = Groq(api_key=os.getenv("GROQ_API_KEY"))
-        self.executor = ToolExecutor()
+        self.executor = executor or ToolExecutor()
         self.history  = []
         self.system = """You are an expert research assistant with access to
 three tools: search_docs, search_web, and save_note.
